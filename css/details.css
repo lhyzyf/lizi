@@ -1,0 +1,489 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.bar{
+	background-color: #f0f0f0;
+	position: relative;
+}
+.bar-top{
+	width: 1200px;
+	height: 25px;
+	margin: 0 auto;
+}
+.bar-left{
+	float: left;
+}
+.bar-right{
+	float: right;
+	padding-right: 10px;
+	list-style: none;
+}
+.bar-topt li{
+	float: left;
+    position: relative;
+    line-height: 18px;
+    padding: 3px 0 3px ;
+}
+.bar-right li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #34495e;
+}
+.top-bar-i s{
+	border-right: 1px solid #d4d4d4;
+    margin: 0 8px;
+    text-decoration: none;
+}
+.top-bar-i{
+	float: left;
+	width: 114.13px;
+	height: 24px;
+}
+.top-bar-i0{
+	float: left;
+	width: 110px;
+	height: 24px;
+}
+.top-bar-i1{
+	float: left;
+	width: 84px;
+	height: 24px;
+	position: relative;
+}
+.top-bar-i1:hover .icon-jiankuohaoxixia{
+	transform: rotate(180deg);
+
+}
+.icon-gouwuche{
+	color: #bbb;
+    top: 2px;
+}
+.icon-jiankuohaoxixia{
+	position: absolute;
+    top: 2px;
+}
+.top-bar-i1 .more-bd{
+	position: absolute;
+    top: 33px;
+    right: 3px;
+    display: none;
+    box-shadow: 1px 1px 3px rgba(100,100,100,.3);
+    transition: all .4s;
+    background: #fff;
+}
+.top-bar-i1:hover .more-bd{
+	display: block;
+}
+.more-bd .list{
+	padding: 15px;
+    width: 130px;
+    height: 190px;
+    background: url(../img/guanzhu-bg.jpg)center 50px no-repeat;
+}
+.attention{
+	width: 70px;
+	height: 24px;
+}
+.attention p{
+	padding-left: 30px;
+	height: 24px;
+}
+.top-bar-i2{
+	float: left;
+	width: 66px;
+	height: 24px;
+}
+.top-bar-i3{
+	float: left;
+	width: 81px;
+	height: 24px;
+}
+.top-bar-i3 .icon-taoxin{
+	color: #999;
+}
+.header{
+	height: 100px;
+	background: #fff;
+}
+.header-in{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.logo {
+	width: 160px;
+    margin-top: 10px;
+    float: left;
+}
+.logo a.lizi-logo{
+	display: block;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background: url(../img/logo-08.png) 0 center no-repeat;    
+}
+.header-in .shop-info{
+	height: 80px;
+    width: 275px;
+    padding: 20px 30px 0;
+    float: left; 
+}
+.shop-line{
+	width: 0;
+    height: 66px;
+    margin-top: 16px;
+    border-right: 1px dashed #bbb;
+    float: left;
+}
+.shop-info-pic{
+	display: block;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.shop-info-text{
+	font-size: 14px;
+    float: left;
+    width: 200px;
+    height: 60px;
+}
+.shop-title{
+  	position: relative;
+  }  
+.shop-title p{
+	margin-left: 20px;
+	width: 170px;
+    height: 25px;
+    display: inline-block;
+}
+.shop-title p a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #34495e;
+}
+.shop-title .icon-xiala{
+	display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    margin-left: 12px;
+    float: left;
+    font-size: 13px;
+    color: #999;
+}
+.shop-info:hover .icon-xiala{
+	transform: rotate(180deg);
+	transition: all 1s;
+}
+.kefu{
+	padding-top: 3px;
+	margin-left: 20px;
+}
+.erji{
+	position: absolute;
+    top: 125px;
+    width: 360px;
+    padding: 10px;
+    background: #f5f5f5;
+    font-size: 14px;
+    margin-left: -30px;
+    display: none;
+    border-radius: 5px;
+   border-top: 1px solid #ddd;
+    box-shadow: 0 3px 5px #ccc;
+}
+.erji ul{
+	list-style: none;
+	padding: 0;
+}
+.erji ul li{
+	line-height: 25px;
+	font-size: 13.5px;
+}
+.erji ul li label{
+	display: inline-block;
+    width: 70px;
+    text-align: right;
+    cursor: default;
+}
+.erji li .icon-taoxin{
+	color: #ff666b;
+    display: inline-block;
+    font-size: 18px;
+}
+.shop-li2 span{
+	display: inline-block;
+    width: 178px;
+}
+.shop-three label{
+	float: left;
+	cursor: default;
+}
+.shop-three p{
+	width: 270px;
+    float: left;
+    padding-top: 3px;
+}
+.shop-three p i{
+	display: inline-block;
+    width: 85px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    background: #ffb72c;
+    color: #fff;
+    margin: 0 0px 10px 0;
+    text-align: center;
+    font-style: normal;
+}
+.shop-info:hover .erji{
+	display: block;
+}
+.shop-info:hover{
+	background: #f5f5f5;
+}
+.shop-search{
+	float: right;
+    width: 485px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.search-btn input{
+	display: block;
+    border: 2px solid #ff666b;
+    text-align: center;
+    line-height: 34px;
+    background: #ff666b;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+.fl{
+	float: left;
+	background: #FF666B;
+}
+.meili{
+	padding: 7px 10px;
+    width: 280px;
+    height: 18px;
+    line-height: 18px;
+    border: none;
+    outline: none;
+    background: #fff;
+    margin: 4px 4px;
+}
+.search-btn{
+	width: 80px;
+    height: 40px; 
+}
+.se{
+	margin-left: 15px;
+}
+.shop-baner{
+	height: 130px;
+    font-size: 0;
+    background: url(../img/1d3cbba744b68.jpg) center no-repeat;
+}
+.shop-nav{
+	margin-top:130px;
+    height: 35px;
+    line-height: 35px;
+    background: #3c4154;
+    font-size: 14px;
+}
+.shop-nav-in{
+	width: 1200px;
+	height: 35px;
+	margin: 0 auto;
+}
+.shop-nav-in .cle-goods{
+	list-style: none;
+	padding: 0;
+}
+.cle-goods li:hover .a{
+	color: #FF666B;
+}
+.shop-nav-in .cle-goods li{
+	display: inline-block;
+	float: left;
+}
+
+.shop-nav-in .cle-goods li a{
+	text-decoration: none;
+	padding: 0 30px;
+	color: #fff;
+	text-align: center;
+}
+.shop-goods .icon-xiala{
+	top: 0;
+	right: 10px;
+	color: white;
+	font-size: 12px;
+	margin-right: 10px;
+}
+.shop-goods:hover .erji-1{
+	display: block;
+}
+.list-erji{
+	position: absolute;
+	width: 140px;
+	background: rgba(60,65,84,.75);
+}
+.erji-1{
+    top: 35px;
+    width: 140px;
+    display: none;
+}
+.erji-1 p:hover{
+	background: rgba(200,200,200,.2);
+}
+/**/
+.wraper{
+	width:1200px;
+	margin: 0 auto;
+}
+.wraper-top a{
+	margin: 0 15px;
+    padding: 0 3px;
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    line-height: 20px;
+}
+.wraper-in{
+	width: 1090px;
+	margin: 10px auto 80px;
+}
+.productlist{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+	overflow: hidden;
+	padding: 0 0 5px;	
+}
+.productlist ul{
+	margin-top: 10px;
+	font-size: 14px;
+    line-height: 25px;
+    list-style: none;
+}
+.productlist ul li{
+    background: #fff;
+    width: 212px;
+    height: 295px;
+    float: left;
+    padding: 10px 20px;                         
+    margin: 0 0 15px 15px;
+    border: 1px solid #e8e8e8;
+}
+.productlist ul li a{
+	display: block;
+    position: relative;
+    text-decoration: none;
+    color: #34495e;
+}
+.productlist ul li:hover{
+	border: 1px solid #FF666B;
+}
+.productlist ul li:hover .txt{
+	color: red;
+	text-decoration: underline;
+}
+.productlist li a img{
+    display: block;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+}
+.txt{
+	height: 40px;
+    line-height: 20px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+.aa{
+	padding: 3px 0;
+}
+.aa .price{
+	font-size: 14px;
+	float: left;
+	color: #ff666b;
+}
+.aa .fr{
+	float: right;
+	font-size: 12px;
+}
+.footer{
+	border-top:2px solid #ff666b;
+	height: 231.8px;
+	background: url(../img/footer-bg.jpg);
+}
+.ft-in{
+	width: 1200px;
+	margin: 0 auto;
+	height: 10px;
+	color: #fff;
+	position: relative;
+}
+.ft-in .ft-left{
+	width: 800px;
+	float: left;
+}
+.ft-left .p1{
+	padding-top: 25px;
+}
+.ft-left p a{
+	margin-right: 2px;
+	color: #fff;
+	text-decoration: none;
+}
+#p2 a:hover{
+	text-decoration: underline;
+}
+.ft-left p{
+	font-size: 12.5px;
+	line-height: 30px;
+}
+.p4{
+	margin-top: 20px;
+}
+
+.ft-in .ft-right{
+	width: 400px;
+	float: left;
+}
+.ft-right-in{
+	width: 350px;
+	height:160px ;
+	margin-top: 40px;
+}
+.wx{
+	width: 130px;
+	margin-left: 25px;
+	float: left;
+}
+.wx img{
+	margin-left: 18px;
+}
+.wx p{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	line-height: 25px;
+}
+.APP{
+	width: 120px;
+	height: 100px;
+	background: blud;
+	float: right;
+}
+.APP img{
+	margin-left: 23px;
+}
+.APP p a{
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+}

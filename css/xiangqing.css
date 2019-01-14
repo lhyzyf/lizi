@@ -1,0 +1,1033 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.bar{
+	background-color: #f0f0f0;
+	position: relative;
+}
+.bar-top{
+	width: 1200px;
+	height: 25px;
+	margin: 0 auto;
+}
+.bar-left{
+	float: left;
+}
+.bar-right{
+	float: right;
+	padding-right: 10px;
+	list-style: none;
+}
+.bar-topt li{
+	float: left;
+    position: relative;
+    line-height: 18px;
+    padding: 3px 0 3px ;
+}
+.bar-right li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #34495e;
+}
+.top-bar-i s{
+	border-right: 1px solid #d4d4d4;
+    margin: 0 8px;
+    text-decoration: none;
+}
+.top-bar-i{
+	float: left;
+	width: 114.13px;
+	height: 24px;
+}
+.top-bar-i0{
+	float: left;
+	width: 110px;
+	height: 24px;
+}
+.top-bar-i1{
+	float: left;
+	width: 84px;
+	height: 24px;
+	position: relative;
+}
+.top-bar-i1:hover .icon-jiankuohaoxixia{
+	transform: rotate(180deg);
+}
+.icon-gouwuche{
+	color: #bbb;
+    top: 2px;
+}
+.icon-jiankuohaoxixia{
+	position: absolute;
+    top: 2px;
+}
+.top-bar-i1 .more-bd{
+	position: absolute;
+    top: 33px;
+    right: 3px;
+    display: none;
+    box-shadow: 1px 1px 3px rgba(100,100,100,.3);
+    transition: all .4s;
+    background: #fff;
+}
+.top-bar-i1:hover .more-bd{
+	display: block;
+}
+.more-bd .list{
+	padding: 15px;
+    width: 130px;
+    height: 190px;
+    background: url(../img/guanzhu-bg.jpg)center 50px no-repeat;
+}
+.attention{
+	width: 70px;
+	height: 24px;
+}
+.attention p{
+	height: 24px;
+	padding-left: 30px;
+}
+.top-bar-i2{
+	float: left;
+	width: 66px;
+	height: 24px;
+}
+.top-bar-i3{
+	float: left;
+	width: 81px;
+	height: 24px;
+}
+.top-bar-i3 .icon-taoxin{
+	color: #999;
+}
+.header{
+	height: 100px;
+	background: #fff;
+}
+.header-in{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.logo {
+	width: 160px;
+    margin-top: 10px;
+    float: left;
+}
+.logo a.lizi-logo{
+	display: block;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background: url(../img/logo-08.png) 0 center no-repeat;    
+}
+.header-in .shop-info{
+	height: 80px;
+    width: 275px;
+    padding: 20px 30px 0;
+    float: left; 
+}
+.shop-line{
+	width: 0;
+    height: 66px;
+    margin-top: 16px;
+    border-right: 1px dashed #bbb;
+    float: left;
+}
+.shop-info-pic{
+	display: block;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.shop-info-text{
+	font-size: 14px;
+    float: left;
+    width: 200px;
+    height: 60px;
+}
+.shop-title{
+  	position: relative;
+  }  
+.shop-title p{
+	margin-left: 20px;
+	width: 170px;
+    height: 25px;
+    display: inline-block;
+}
+.shop-title p a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #34495e;
+}
+.shop-title .icon-xiala{
+	display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    margin-left: 12px;
+    float: left;
+    font-size: 10px;
+    color: #999;
+}
+.kefu{
+	padding-top: 3px;
+	margin-left: 20px;
+}
+.erji{
+	position: absolute;
+    top: 125px;
+    width: 360px;
+    padding: 10px;
+    background: #f5f5f5;
+    font-size: 14px;
+    margin-left: -30px;
+    display: none;
+    border-radius: 5px;
+   border-top: 1px solid #ddd;
+    box-shadow: 0 3px 5px #ccc;
+}
+.erji ul{
+	list-style: none;
+	padding: 0;
+}
+.erji ul li{
+	line-height: 25px;
+	font-size: 13.5px;
+}
+.erji ul li label{
+	display: inline-block;
+    width: 70px;
+    text-align: right;
+    cursor: default;
+}
+.erji li .icon-taoxin{
+	color: #ff666b;
+    display: inline-block;
+    font-size: 18px;
+}
+.shop-li2 span{
+	display: inline-block;
+    width: 178px;
+}
+.shop-three label{
+	float: left;
+	cursor: default;
+}
+.shop-three p{
+	width: 270px;
+    float: left;
+    padding-top: 3px;
+}
+.shop-three p i{
+	display: inline-block;
+    width: 85px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 5px;
+    background: #ffb72c;
+    color: #fff;
+    margin: 0 0px 10px 0;
+    text-align: center;
+    font-style: normal;
+}
+.cle:hover .erji{
+	display: block;
+}
+.shop-info:hover{
+	background: #f5f5f5;
+}
+/*.shop-info:hover .icon-xiala{
+	transform：rotateX(180deg);
+	transition: all 3s;
+}*/
+.shop-search{
+	float: right;
+    width: 485px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.search-btn input{
+	display: block;
+	width: 80px;
+    border: 2px solid #ff666b;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    outline: none;
+    margin-top: 1px;
+}
+.fl{
+	float: left;
+	background: #FF666B;
+}
+.meili{
+	padding: 7px 10px;
+    width: 280px;
+    height: 18px;
+    line-height: 18px;
+    border: none;
+    outline: none;
+    background: #fff;
+    margin: 4px 4px;
+}
+.search-btn{
+	width: 80px;
+    height: 40px; 
+}
+.se{
+	background: #fff;
+	margin-left: 15px;
+}
+.shop-baner{
+	height: 130px;
+    font-size: 0;
+    background: url(../img/1d3cbba744b68.jpg) center no-repeat;
+}
+.shop-nav{
+	margin-top:130px;
+    height: 35px;
+    line-height: 35px;
+    background: #3c4154;
+    font-size: 14px;
+}
+.shop-nav-in{
+	width: 1200px;
+	height: 35px;
+	margin: 0 auto;
+}
+.shop-nav-in .cle-goods{
+	list-style: none;
+	padding: 0;
+}
+.cle-goods li:hover .a{
+	color: #FF666B;
+}
+.shop-nav-in .cle-goods li{
+	display: inline-block;
+	float: left;
+}
+
+.shop-nav-in .cle-goods li a{
+	text-decoration: none;
+	padding: 0 30px;
+	color: #fff;
+	text-align: center;
+}
+.shop-goods .icon-xiala{
+	top: 0;
+	right: 10px;
+	color: white;
+	font-size: 12px;
+	margin-right: 10px;
+}
+.shop-goods:hover .erji-1{
+	display: block;
+}
+.list-erji{
+	position: absolute;
+	width: 140px;
+	background: rgba(60,65,84,.75);
+	z-index: 9;
+}
+.erji-1{
+    top: 35px;
+    width: 140px;
+    display: none;
+}
+.erji-1 p:hover{
+	background: rgba(200,200,200,.2);
+}
+.content{
+	width: 1200px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.detail{
+	width: 100%;
+	height: 490px;
+	border: 1px solid #dedede;
+    border-top-color: #d5d5d5;
+    background: url(//s02.lizi.com/www/images/seemore-bg.png) right 0 repeat-y #fff;
+    position: relative;
+}
+.item-left{
+	width: 410px;
+	float: left;
+}
+.view-bd{
+	width: 410px;
+	height: 410px;
+	position: relative;
+}
+.imgs{
+	width: 380px;
+	height: 380px;
+	margin:15px 15px;
+	position: relative;
+}
+.mc{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 10;
+		}
+.gray{
+	width: 200px;
+	height: 200px;
+	display: none;
+	position: absolute;
+	top:15px;
+	left: 15px;
+	background: url(https://s02.lizi.com/images/pc/dot.png);
+}
+.imgs:hover .gray{
+	display: block;
+}
+.imgs img{
+	width: 380px;
+	height: 380px;
+}
+
+.view-right{
+	position: absolute;
+	top: 0;
+	left: 410px;
+	width: 410px;
+	height: 396px;
+	border: 1px solid #dedede;
+	border-top:none;
+	z-index: 12;
+	display: none;
+	overflow: hidden;
+}
+.view-right img{
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	top: 0;
+}
+.view-bom ul{
+	padding: 15px 0;
+    height: 56px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+.view-bom ul li{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ddd;
+	text-align: center;
+	margin: 0 4px 50px;
+    cursor: pointer;
+    padding: 2px;
+    float: left;
+    position: relative;
+    left: 120px;
+}
+.view-bom ul li img{
+	width: 100%;
+	height: 100%;
+}
+.icon-jiankuohaoxishang{
+	position: absolute;
+    left: 22px;
+    top: -12px;
+    color: #ff666b;
+    /*display: none;*/
+   /*visibility: hidden;*/
+    line-height: 12px;
+}
+.shang:hover .icon-jiankuohaoxishang{
+	display: block;
+}
+.item-in{
+	width: 560px;
+	float: left;
+}
+.item-top{
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+.product-name{
+	padding-top: 18px;
+	border-bottom:1px solid #ddd;
+}
+.product-name h3{
+	font-size: 16px;
+	color: #34495e;
+}
+.product-name p{
+	font-size: 12px;
+	color: #999;
+	line-height: 18px;
+	padding: 3px 0 12px;
+}
+.item-info{
+	padding-top: 10px;
+    font-size: 14px;
+    color: #999;
+}
+.property li{
+	padding: 7px 0;
+	width: 100%;
+}
+.item-info li .li1{
+	display: inline-block;
+    width: 60px;
+    color: #666;
+}
+.property li .rmb{
+	text-decoration: line-through;
+}
+.property li .price{
+	    color: #ff666b;
+    font-size: 20px;
+}
+.property li .num{
+	font-style: normal;
+	padding: 0 5px;
+	color: #ff666b;
+}
+cite{
+	font-style: normal;
+}
+.pin-star{
+	width: 66px;
+    overflow: hidden;
+    text-align: left;
+    height: 12px;
+    display: inline-block;
+    text-align: left;
+    background: url(http://s02.lizi.com/www/images/star-small.png) 0px 12px;
+}
+.orign{
+	margin: 0 4px;
+	color: #ff666b;
+	font-style: normal;
+}
+.pin{
+	text-decoration: none;
+	color: #999;
+	margin: 0 4px;
+}
+.pin:hover{
+	text-decoration: underline;
+}
+.tuboy-box{
+	padding-top: 20px;
+	color: #666;
+}
+.number{
+	position: relative;
+}
+.skunum{
+	position: absolute;
+	top: 0;
+    height: 32px;
+    overflow: hidden;
+    left: 66px;
+    cursor: pointer;
+}
+.jian{
+	float: left;
+	display: block;
+    width: 28px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    text-align: center;
+    font-size: 25px;
+    line-height: 25px;
+}
+.skunum input{
+	float: left;
+	width: 60px;
+	height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16px;
+}
+.ku{
+	margin-left: 5px;
+    color: #999;
+    font-size: 14px;
+    padding-top: 5px;
+    float: left;
+}
+.cun{
+	font-style: normal;
+	margin: 0 4px;
+}
+.gonwu{
+	width: 100%;
+	padding: 5px 0;
+	margin-top: 20px;
+}
+.btn{
+	display: block;
+	width: 142px;
+	height: 42px;
+	border-radius: 2px;
+    color: #fff;
+    background-color: #ff666b;
+    border: 1px solid #ff666b;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+}
+.ping{
+	margin-top: 50px;
+	padding: 0 5px;
+	font-size: 12px;
+}
+.ping li{
+	float: left;
+    padding: 0 10px;
+    height: 17px;
+    line-height: 17px;
+    color: #bbb;
+    border-right: 1px dotted #ccc;
+}
+.icon-pin{
+	display: inline-block;
+	width: 16px;
+	background: #bbb;
+	color:#fff;
+	text-align: center;
+}
+.item-right{
+	position: relative;
+	float: right;
+    width: 205px;
+}
+.item-right h3{
+	position: absolute;
+	right: 42px;
+    top: -3px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+     padding: 15px 0;
+}
+.item-right a{
+	margin-left: 45px;
+	text-decoration: none;
+	color: #999;
+}
+.bd{
+	width: 133px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto 0;
+    top: 30px;
+}
+.bd li{
+	width: 130px;
+	height: 130px;
+	border:1px solid #ddd;
+	margin-top: 10px;
+	background: #fff;
+	overflow: hidden;
+}
+.bd li a img{
+	position: absolute;
+	left: 0;
+	width: 130px;
+    height: 130px;
+    background-color: #fff;
+  
+}
+.bd li a p{
+	position: absolute;
+	margin-top: 80px;
+	left: 10px;
+}
+.bd li a p:hover{
+	color: #FF666B;
+}
+.detail-page{
+	position: relative;
+	padding-top: 20px;
+    padding-bottom: 40px;
+}
+.detail-left{
+	float: left;
+	width: 968px;
+	border: 1px solid #dedede;
+}
+.xq-top{
+	height: 46px;
+    width: 970px;
+}
+.xq-bar{
+	height: 44px;
+    width: 968px;
+    background: #f3f3f3;
+    top: 0;
+    
+}
+.xq-bar ul li{
+	position: relative;
+    display: block;
+    float: left;
+    height: 44px;
+    line-height: 44px;
+}
+.xq-top-one{
+	float: left;
+	width: 127px;
+	background: #fff;
+	text-align: center;
+}
+.xq-top-two{
+	width: 144px;
+	text-align: center;
+	border-top: none;
+	border: 1px solid #dedede;;
+	
+}
+.xq-top-three{
+	width: 695px;
+	height: 44px;
+	border-bottom: 1px solid #dedede;
+}
+.xq0{
+	color: #34495e;
+}
+.xq-top-two:hover .xq0{
+	color: #F44358;
+}
+.detail-bt{
+	margin-top: 20px;
+	padding: 0 20px;
+}
+.bt{
+	background: url(http://s02.lizi.com/images/pc/spxq_tit_bg.png) no-repeat;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+.bt span{
+	display: block;
+	background-position: 0 4px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 27px;
+}
+.detail-bg{
+	padding: 0 20px;
+}
+table{
+	border-collapse: collapse;
+	font-size: 14px;
+	color: #34495e;
+	border:1px solid #bbb;
+}
+.td1{
+	width: 110px;
+	height: 35px;
+	padding-left: 20px;
+}
+.td2{
+	width: 555px;
+	height: 35px;
+	padding-left: 20px;
+}
+.part-bd{
+	width: 928px;
+	margin: 0 20px;
+    overflow: hidden;
+    line-height: 24px;
+    font-size: 14px;
+}
+.detail-right{
+	float: right;
+	width: 206px;
+}
+.detail-right-in{
+	border:1px solid #dedede;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.hd{
+	width: 204px;
+	height: 44px;
+	overflow: hidden;
+	background: url(http://s02.lizi.com/images/pc/h3-titbg.png) 15px 14px no-repeat #f3f3f3;
+	line-height: 44px;
+	font-style: 14px;
+	border:1px solid #dedede;
+}
+.hd span{
+	margin-left: 25px;
+}
+.hd a{
+	float: right;
+	color: #FF666B;
+	font-size: 12px;
+}
+.hd a:hover{
+	text-decoration: underline;
+}
+.detail-right-in ul{
+	margin:0 17px;
+	
+}
+.detail-right-in ul li{
+	border-bottom: 1px dashed #ccc;
+    padding-bottom: 14px;
+    margin-bottom: -1px;
+}
+.img
+	padding-top: 10px;
+    text-align: center;
+}
+.img a img{
+	width: 120px;
+	height: 120px;
+}
+.by a{
+	display: inline-block;
+	font-size: 12px;
+	color: #34495e;
+	line-height: 18px;
+}
+.by a:hover{
+	color: #FF666B;
+	text-decoration: underline;
+}
+.jg{
+	margin-top: 10px;
+}
+.jg span{
+	float: right;
+	color: #999;
+    text-decoration: line-through;
+}
+.db{
+	border:1px solid #dedede;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.zh{
+	border-bottom: none;
+	margin:0 17px;
+	padding-bottom: 15px;
+}
+.pj{
+	padding: 15px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.pj-left{
+	width: 520px;
+    float: left;
+}
+.pj-one{
+	width: 158px;
+    border-right: 1px solid #ccc;
+    padding-top: 2px;
+    height: 115px;
+    float: left;
+}
+.pja{
+	font-size: 24px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.pja b{
+	color: #ff666b;
+    font-size: 26px;
+}
+.pjb{
+	width: 130px;
+	height: 22px;
+    background-image: url(http://s02.lizi.com/www/images/star2.png);
+    background-repeat: repeat-x;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pjc{
+	text-align: center;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.pjc em{
+	color: #FF666B;
+	font-style: normal;
+}
+.pj-two{
+	float: right;
+	width: 360px;
+}
+.pj-tow-in{
+	height: 20px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+.pj-tow-in label{
+	display: inline-block;
+    width: 100px;
+    text-align: right;
+    float: left;
+}
+.pj-tow-in p{
+    float: left;
+    width: 200px;
+    height: 14px;
+    margin: 3px 5px;
+}
+.pj-tow-in p span{
+	display: block;
+    width: 100%;
+    background: #ff666b;
+    height: 14px;
+}
+.pj-tow-in em{
+	color: #ff666b;
+    margin-left: 10px;
+    font-style: initial;
+}
+.pj-right{
+	width: 320px;
+    float: right;
+}
+.pj-right{
+	color: #34495e;
+	font-size: 14px;
+}
+.pj-bom{
+	margin-top: 20px;
+	width: 94px;
+	height: 32px;
+	background: #FF666B;
+	border-radius: 2px;
+}
+.pj-bom a{
+	display: block;
+	line-height: 32px;
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+}
+.bottom{
+	width: 928px;
+	height: 45px;
+	background: #eee;
+	margin:10px 20px 60px 20px;
+}
+.bottom-in{
+	float: right;
+    height: 30px;
+    margin-top: 8px;
+    line-height: 30px;
+}
+.bottom-in p{
+	display: inline-block;
+	margin-left: 20px;
+    padding: 3px 5px;
+    font-size: 14px;
+    color: #34495e;
+}
+.bottom-in p:hover{
+	color: #FF666B;
+}
+.bottom-in p em{
+	font-style: initial;
+}
+.footer{
+	border-top:2px solid #ff666b;
+	height: 231.8px;
+	background: url(../img/footer-bg.jpg);
+}
+.ft-in{
+	width: 1200px;
+	margin: 0 auto;
+	height: 10px;
+	color: #fff;
+	position: relative;
+}
+.ft-in .ft-left{
+	width: 800px;
+	float: left;
+}
+.ft-left .p1{
+	padding-top: 25px;
+}
+.ft-left p a{
+	margin-right: 2px;
+	color: #fff;
+	text-decoration: none;
+}
+#p2 a:hover{
+	text-decoration: underline;
+}
+.ft-left p{
+	font-size: 12.5px;
+	line-height: 30px;
+}
+.p4{
+	margin-top: 20px;
+}
+
+.ft-in .ft-right{
+	width: 400px;
+	float: left;
+}
+.ft-right-in{
+	width: 350px;
+	height:160px ;
+	margin-top: 40px;
+}
+.wx{
+	width: 130px;
+	margin-left: 25px;
+	float: left;
+}
+.wx img{
+	margin-left: 18px;
+}
+.wx p{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	line-height: 25px;
+}
+.APP{
+	width: 120px;
+	height: 100px;
+	background: blud;
+	float: right;
+}
+.APP img{
+	margin-left: 23px;
+}
+.APP p a{
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+}
